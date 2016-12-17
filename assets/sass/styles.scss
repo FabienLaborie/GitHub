@@ -1,0 +1,72 @@
+/*=================================
+=            IMPORTS           =
+=================================*/
+@import "base/normalize";
+
+
+
+/*=================================
+=            VARIABLES           =
+=================================*/
+
+$brand-color: #26bba1;
+
+
+html {
+	background: $brand-color url('../images/fabienlaborie.svg') center center no-repeat;
+	background-attachment:fixed;
+	min-height: 100%;
+	font-family: "museo-slab",serif;
+}
+
+body {
+	color: #fff;
+	text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+strong {
+	font-weight: 800;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	font-style: italic;
+}
+
+span {
+	transition: all 0.15s ease-in;
+}
+
+.intro {
+	margin: 0 12%;
+	padding: 6% 0;
+	max-width: 540px;
+}
+
+.intro__text {
+	margin: 0 0 20px 0;
+	font-weight: 300;
+}
+
+.email {
+	margin: 20px 0 0 0;
+	display: inline-block;
+	font-weight: 800;
+}
+
+.link {
+	transition: all 0.15s ease-in;
+}
+
+.addOpacity {
+	opacity: 0;
+	transition: all 0.15s ease-out;
+}
+
+.removeOpacity {
+	opacity: 1;
+}
